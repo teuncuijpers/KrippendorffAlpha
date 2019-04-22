@@ -1,7 +1,7 @@
 import numpy as np
 from itertools import combinations
 
-def KrippendorffAlpha(data,datatype): 
+def KrippendorffAlpha(data,Type): 
     
     #determine min & max values
     Values = np.unique(data)
